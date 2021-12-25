@@ -1,12 +1,14 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 
-function ProjectList({ projects }) {
-  console.log(projects);
+function ProjectList({ project }) {
+  console.log(project);
+  
   return (
-    <div id="projects">
+    <div id="project">
       <h2>My Projects</h2>
-      <div id="project-list">{/* render ProjectItem components here */}</div>
+      <div id="project-list">
+      </div>
     </div>
   );
 }
